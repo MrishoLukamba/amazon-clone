@@ -1,0 +1,30 @@
+.checkoutproduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image {
+   object-fit: contain;
+   width: 200px;
+   height: 200px; 
+}
+
+.image__info {
+    padding-left: 20px;
+}
+.image__rating {
+    display: flex;
+    flex-direction: row;
+}
+.image__title {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.checkoutproduct > button {
+    flex-direction: row;
+    margin-top: 10px;
+    height: 50px;
+    width: 60px;
+}
+
